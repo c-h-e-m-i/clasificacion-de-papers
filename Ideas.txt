@@ -1,0 +1,3 @@
+- Tipos de regularización
+- Formar un léxico de polaridad con las keywords
+- N-gramas de 2 palabras + N-gramas de caracteres
