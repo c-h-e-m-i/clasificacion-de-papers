@@ -1,5 +1,5 @@
-- Tipos de regularización
+- Tipos de regularización (NO NECESARIO)
 - Formar un léxico de polaridad con las keywords
 - N-gramas de 2 palabras (HECHO) + N-gramas de caracteres
 - Quitar stopwords (HECHO)
-- Estratificar teniendo en cuenta solo los porcentajes de clases independientes
+- Estratificar teniendo en cuenta solo los porcentajes de clases independientes (NO NECESARIO)
