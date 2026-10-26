@@ -1,5 +1,16 @@
+CLÁSICOS:
 - Tipos de regularización (NO NECESARIO)
-- Formar un léxico de polaridad con las keywords
-- N-gramas de 2 palabras (HECHO) + N-gramas de caracteres
+- Formar un léxico de polaridad con las keywords (NO TIENE SENTIDO)
+- N-gramas de 2 palabras (HECHO) + N-gramas de caracteres (HECHO)
 - Quitar stopwords (HECHO)
 - Estratificar teniendo en cuenta solo los porcentajes de clases independientes (NO NECESARIO)
+- Predecir solo las k mejores etiquetas para el test.
+- Predecir primero el grupo de la etiqueta y luego la propia categoría.
+- Evitar filas de todo ceros. (HECHO EN EL AJUSTE DE UMBRALES)
+
+TRANSFORMERS:
+- Escribir descripciones de las etiquetas y hacer que el modelo intente ajustarse a ellas en vez de basarse en el train.
+- Añadir una cabeza de clasificación con nuestro mejor modelo clásico al transformer Specter2.
+
+Para la memoria:
+- Explicar brevemente por qué hemos escogido liblinear para la RL.
