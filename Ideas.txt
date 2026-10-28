@@ -7,6 +7,12 @@ CLÁSICOS:
 - Predecir solo las k mejores etiquetas para el test.
 - Predecir primero el grupo de la etiqueta y luego la propia categoría.
 - Evitar filas de todo ceros. (HECHO EN EL AJUSTE DE UMBRALES)
+- Byte-pair encoding
+- Lematización
+- Stemming
+- Comentar que para las clases pequeñas el modelo se tienta a poner todo a 1 para disparar el recall y mejorar la F1 individual (mejor F1 macro pero 0 accuracy global)
+- Matriz TF-IDF con suavizado
+- max_df
 
 TRANSFORMERS:
 - Escribir descripciones de las etiquetas y hacer que el modelo intente ajustarse a ellas en vez de basarse en el train.
