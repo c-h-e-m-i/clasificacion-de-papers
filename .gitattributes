@@ -1,1 +1,2 @@
 scibert.zip filter=lfs diff=lfs merge=lfs -text
+scibert filter=lfs diff=lfs merge=lfs -text
