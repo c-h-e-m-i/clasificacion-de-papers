@@ -5,7 +5,7 @@ CLÁSICOS:
 - Quitar stopwords (HECHO)
 - Estratificar teniendo en cuenta solo los porcentajes de clases independientes (NO NECESARIO)
 - Predecir solo las k mejores etiquetas para el test.
-- Predecir primero el grupo de la etiqueta y luego la propia categoría.
+- Predecir primero el grupo de la etiqueta y luego la propia categoría. (EL GRUPO LC02 DIJO QUE EMPEORABA)
 - Evitar filas de todo ceros. (HECHO EN EL AJUSTE DE UMBRALES)
 - Byte-pair encoding (NO NECESARIO)
 - Lematización (NO NECESARIO)
@@ -20,3 +20,22 @@ TRANSFORMERS:
 
 Para la memoria:
 - Explicar brevemente por qué hemos escogido liblinear para la RL.
+- Mencionar que usamos la eval_loss para optimizar los modelos de Transformers.
+
+Ideas de las presentaciones:
+- Podría ser interesante hacer voting.
+- AUC adversarial (palabras que no aparecen en el test).
+- Eliminar artículos retractados.
+- Juntar las etiquetas que aparecen siempre juntas.
+- Hacer título + título + resumen en el train.
+- Cambiar la función de pérdida para los transformers.
+- Limitar tamaño del vocabulario.
+- BCE ponderada.
+- Elegir umbrales con KFold.
+- Ponderar con diferentes valores en los ensembles.
+- Ver lo que es "stacking".
+- Fusionar los duplicados con categorías diferentes.
+- Qué es un ridge.
+- Cosine decay.
+- Asymmetric loss.
+- TAPT, Gururangan et al., 2020 - Adaptar el preentrenamiento a los textos del test.
